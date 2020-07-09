@@ -14,12 +14,18 @@ https://prod.mblsto2020.com/
 ## Running application localy
 
 1. Install [Docker Engine](https://docs.docker.com/engine/install/) for your platform. We strongly recommend Docker Desktop for [Mac](https://docs.docker.com/engine/install/) or [Windows](https://docs.docker.com/docker-for-windows/install/) users.
-2. Go to the file service/src/main/resources/application-local.yaml and update following properties
-   - vaAuthHeaderValue ( with the apikey value obtained from [VA developer site](https://developer.va.gov/apply))
-   - vaClaimIntakePointerUrl (Make sure it is pointing to sandbox box environment)
-3) Launch Docker
-4) Run the folowing command in the terminal:   
+2. Install Git
+3. Aquire VA API access key by going to [VA VA Lighthouse Developer Site](https://developer.va.gov/apply)
+4. Clone the repository  `git clone -b master git@github.com:atlas-brownie/WCST.git --recurse-submodules` . This will create folder named WCST.
+4. Navigate inside of the WCST folder.
+5. Enter your VA testing credentials in to the file service/src/main/resources/application-local.yaml and update following properties
+   - `vaAuthHeaderValue` With the apikey value.
+   - `vaClaimIntakePointerUrl` Make sure it is pointing to sandbox box environment.
+7) Launch Docker
+8) Run the folowing command in the terminal:   
      `docker-compose up -d`
+9) Access User interface in the browser by goign to: http://localhost:3000/
+    
 
 ### Accessing local instance
 
