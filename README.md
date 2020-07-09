@@ -40,8 +40,8 @@ http://localhost:8080/
 
 WCST application consists of two main components, front-end and the back-end service. And uses Dynomodb database to persist the records.
 To find more information about each, access thir respective readme files.
-* [Front End](ui/README.md)
-* [Back End Service](service/README.md)
+* [Front End](https://github.com/atlas-brownie/WCST-UI/blob/master/README.md)
+* [Back End Service](https://github.com/atlas-brownie/WCST-Services/blob/master/README.md)
 
 ## Architecture Diagram
 ![Architecture](assets/Architecture_Tools.png)
