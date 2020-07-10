@@ -1,2 +1,2 @@
 # WCST
-Single repo for WCST
+One stop repository for running WCST Application
