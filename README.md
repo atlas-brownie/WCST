@@ -43,7 +43,7 @@ To find more information about each, access their respective readme files.
 * [Back End Service](https://github.com/atlas-brownie/WCST-Services/blob/master/README.md)
 
 ## Architecture Diagram
-![Architecture](assets/Architecture_Tools.png)
+![Architecture](assets/diagram.jpg)
 
 ## Tech Stack
 * Front end
