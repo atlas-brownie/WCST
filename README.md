@@ -11,7 +11,7 @@ https://prod.mblsto2020.com/
 
 ---
 
-## Running application localy
+## Running application locally
 
 1. Install [Docker Engine](https://docs.docker.com/engine/install/) for your platform. We strongly recommend Docker Desktop for [Mac](https://docs.docker.com/engine/install/) or [Windows](https://docs.docker.com/docker-for-windows/install/) users.
 2. Install Git
