@@ -1,0 +1,8 @@
+[submodule "service"]
+	path = service
+	url = git@github.com:atlas-brownie/WCST-Services.git
+	branch = develop
+[submodule "ui"]
+	path = ui
+	url = git@github.com:atlas-brownie/WCST-UI.git
+	branch = develop
